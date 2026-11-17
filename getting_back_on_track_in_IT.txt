@@ -1,0 +1,90 @@
+GETTING BACK ON TRACK IN IT
+
+ORIGINAL PROMPT
+
+I was inactive from development and learning from past 4–5 months. Now I
+want to get back on track and gain knowledge that can improve my
+learning and development.
+
+I want to know from you: - What is happening on GitHub? - Which
+repositories are trending? - Which things/tools can I use to help me
+build a crazy project—something that can help me crack an interview? -
+Give me a planner so I can study according to it and try to stay
+ahead. - The planner should also consider the rapid changes and
+uncertainty in the IT market, so it remains useful in the future.
+
+I was off-form in the IT field for 4 months, so I want to get back on
+track with a strong comeback.
+
+RESPONSE: BACKEND ENGINEER WITH APPLIED-AI SKILLS
+
+Learn this stack: - Python - FastAPI - PostgreSQL and SQL - Redis -
+Docker - Git/GitHub - Azure or AWS - LLM integration - Basic React
+
+This is more durable than becoming only a “prompt engineer.” It combines
+backend/platform, data and applied-AI skills.
+
+WHAT IS HAPPENING ON GITHUB NOW?
+
+Recent GitHub signals show: - TypeScript and Python remain dominant. -
+AI coding agents are rapidly becoming normal development tools. -
+Reviewing, testing and securing AI-generated code is becoming more
+valuable. - India has a huge and increasingly competitive GitHub
+developer population. - Python, SQL, cloud and data engineering remain
+strong employment skills.
+
+REPOSITORIES WORTH UNDERSTANDING
+
+Durable infrastructure: - vLLM — production LLM serving - llama.cpp —
+local model inference - LiteLLM — multi-provider model gateway - PyTorch
+— AI foundation - FastAPI — Python APIs
+
+Fast-moving AI coding tools: - OpenAI Codex - Gemini CLI - Claude Code -
+OpenCode
+
+Learn to use one coding agent effectively, but do not build your entire
+career around one vendor. GitHub stars and trending pages do not
+automatically represent hiring demand.
+
+YOUR STANDOUT PROJECT
+
+Build “PR Guardian”: an AI-assisted pull-request reviewer.
+
+A GitHub App or Action that: 1. Receives a pull request. 2. Measures
+change risk. 3. Detects missing tests and sensitive file changes. 4.
+Runs security and quality checks. 5. Uses an LLM to explain risky
+changes. 6. Posts a structured GitHub review. 7. Tracks false positives
+and reviewer feedback.
+
+RECOMMENDED ARCHITECTURE
+
+-   FastAPI backend
+-   PostgreSQL
+-   Redis background queue
+-   GitHub webhooks and OAuth
+-   Docker
+-   GitHub Actions
+-   LiteLLM for model independence
+-   User-supplied API key or local Ollama model
+-   Azure/AWS free tier for demonstration
+
+This demonstrates APIs, databases, queues, security, testing, cloud,
+system design and practical AI—not merely prompt wrapping.
+
+24-WEEK COMEBACK PLANNER
+
+WEEKS 1–4: REBUILD FUNDAMENTALS
+
+-   Refresh Python syntax, OOP, exceptions, typing and testing.
+-   Learn Git branches, rebasing, pull requests and code reviews.
+
+[The remaining weeks of the planner are not visible in the supplied
+images.]
+
+TRANSCRIPTION NOTES
+
+-   Some text in the second image is covered by a context menu. The
+    stack items above are transcribed from the readable portions.
+-   One project feature in the fifth image is partly obscured; it
+    appears to read “Uses an LLM to explain risky changes.”
+-   The supplied images show only the beginning of the 24-week planner.

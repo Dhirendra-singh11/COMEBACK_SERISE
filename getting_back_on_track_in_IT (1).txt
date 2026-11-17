@@ -1,0 +1,185 @@
+GETTING BACK ON TRACK IN IT
+
+ORIGINAL PROMPT
+
+I was inactive from development and learning for the past 4–5 months.
+Now I want to get back on track and gain knowledge that can improve my
+learning and development.
+
+I want to know: - What is happening on GitHub? - Which repositories are
+trending? - Which tools can help me build an impressive project that can
+help me crack interviews? - Give me a planner so I can study according
+to it and try to stay ahead. - The planner should account for the rapid
+changes and uncertainty in the IT market, so it remains useful in the
+future.
+
+I was off-form in the IT field for 4 months, so I want to get back on
+track with a strong comeback.
+
+RECOMMENDED CAREER DIRECTION: BACKEND ENGINEER WITH APPLIED-AI SKILLS
+
+Learn this stack: - Python - FastAPI - PostgreSQL and SQL - Redis -
+Docker - Git/GitHub - Azure or AWS - LLM integration - Basic React
+
+This is more durable than becoming only a “prompt engineer.” It combines
+backend/platform, data and applied-AI skills.
+
+WHAT IS HAPPENING ON GITHUB NOW?
+
+Recent GitHub signals show: - TypeScript and Python remain dominant. -
+AI coding agents are rapidly becoming normal development tools. -
+Reviewing, testing and securing AI-generated code is becoming more
+valuable. - India has a huge and increasingly competitive GitHub
+developer population. - Python, SQL, cloud and data engineering remain
+strong employment skills.
+
+REPOSITORIES WORTH UNDERSTANDING
+
+Durable infrastructure: - vLLM — production LLM serving - llama.cpp —
+local model inference - LiteLLM — multi-provider model gateway - PyTorch
+— AI foundation - FastAPI — Python APIs
+
+Fast-moving AI coding tools: - OpenAI Codex - Gemini CLI - Claude Code -
+OpenCode
+
+Learn to use one coding agent effectively, but do not build your entire
+career around one vendor. GitHub stars and trending pages do not
+automatically represent hiring demand.
+
+YOUR STANDOUT PROJECT
+
+Build “PR Guardian”: an AI-assisted pull-request reviewer.
+
+A GitHub App or Action that: 1. Receives a pull request. 2. Measures
+change risk. 3. Detects missing tests and sensitive file changes. 4.
+Runs security and quality checks. 5. Uses an LLM to explain risky
+changes. 6. Posts a structured GitHub review. 7. Tracks false positives
+and reviewer feedback.
+
+RECOMMENDED ARCHITECTURE
+
+-   FastAPI backend
+-   PostgreSQL
+-   Redis background queue
+-   GitHub webhooks and OAuth
+-   Docker
+-   GitHub Actions
+-   LiteLLM for model independence
+-   User-supplied API key or local Ollama model
+-   Azure/AWS free tier for demonstration
+
+This demonstrates APIs, databases, queues, security, testing, cloud,
+system design and practical AI—not merely prompt wrapping.
+
+24-WEEK COMEBACK PLANNER
+
+WEEKS 1–4: REBUILD FUNDAMENTALS
+
+-   Refresh Python syntax, OOP, exceptions, typing and testing.
+-   Learn Git branches, rebasing, pull requests and code reviews.
+-   Practise SQL joins, grouping, subqueries and indexes.
+-   Solve 12–15 easy DSA problems.
+-   Build a small FastAPI CRUD service.
+
+Deliverable: Tested task-management API in a clean GitHub repository.
+
+WEEKS 5–8: BACKEND ENGINEERING
+
+-   Authentication and authorization
+-   PostgreSQL schema design and migrations
+-   Validation and error handling
+-   Logging
+-   Unit and integration tests
+-   Docker and Docker Compose
+-   GitHub Actions CI
+
+Deliverable: Production-style API with CI and documentation.
+
+WEEKS 9–12: BUILD PR GUARDIAN V1
+
+-   GitHub webhook integration
+-   Repository installation flow
+-   Pull-request diff processing
+-   Rule-based risk scoring
+-   Automated test detection
+-   GitHub review comments
+
+Deliverable: Working GitHub Action or App without AI.
+
+WEEKS 13–16: ADD APPLIED AI
+
+-   Learn embeddings, context limits and structured output.
+-   Add LiteLLM or another model abstraction.
+-   Analyse only relevant diff sections.
+-   Protect secrets and private code.
+-   Create evaluation cases.
+-   Compare AI results against deterministic rules.
+
+Deliverable: AI review with measurable accuracy—not just impressive
+output.
+
+WEEKS 17–20: PRODUCTION QUALITY
+
+-   Background jobs and Redis
+-   Rate limiting
+-   Retry and failure handling
+-   Metrics and monitoring
+-   Threat modelling
+-   Deployment
+-   Architecture diagram
+-   Performance and cost measurements
+
+Deliverable: Public demo, technical README and two-minute demonstration
+video.
+
+WEEKS 21–24: INTERVIEW PREPARATION
+
+-   Reach 60–80 curated DSA problems.
+-   Practise 30 SQL questions.
+-   Design six systems: URL shortener, chat, notifications, job queue,
+    file storage and PR-review service.
+-   Prepare eight STAR behavioural stories.
+-   Conduct four mock interviews.
+-   Apply to 8–12 carefully selected jobs weekly.
+-   Ask for referrals using your project demonstration.
+
+WEEKLY SCHEDULE: APPROXIMATELY 6 HOURS
+
+Activity Time Building your project 2.5 hours Python/SQL/backend study
+1.5 hours DSA/interview practice 1.25 hours GitHub activity and
+documentation 45 minutes
+
+Every week must produce visible evidence: a feature, tests, deployment,
+technical post or meaningful open-source contribution.
+
+ZERO-INVESTMENT SIDE-BUSINESS PATH
+
+Use PR Guardian as: 1. A free open-source GitHub Action. 2. A “bring
+your own API key” version with almost no operating cost. 3. A hosted
+version for small teams. 4. Paid additions: organisation policies,
+analytics and private deployment.
+
+“Zero investment” can mean no initial money, but successful hosting may
+eventually cost money. Avoid promising unlimited free AI usage.
+
+RULES FOR STAYING FUTURE-PROOF
+
+-   Learn concepts before tools.
+-   Use AI to generate code, but personally review and test everything.
+-   Do not learn five languages simultaneously.
+-   Avoid collecting certificates without projects.
+-   Spend roughly 60% building, 25% interview preparation, 15% learning.
+-   Reassess the market every three months—not every day.
+
+Start this week with Python, Git, SQL and a small FastAPI API. Do not
+begin with advanced LLM infrastructure until that API is tested and
+deployed.
+
+TRANSCRIPTION NOTES
+
+-   This document combines the readable text from both batches of
+    supplied images.
+-   In the first batch, some text was obscured by a context menu. The
+    stack items were transcribed from the readable portions.
+-   The supplied images show the planner through Week 24 and the
+    concluding guidance.
