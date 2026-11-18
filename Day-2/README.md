@@ -1,70 +1,46 @@
-# Day 1: Restarting My IT Journey
+# Day 2: Building a Weekly Study Planner
 
-## What I did today
+## What I worked on
 
-Today I started rebuilding my foundation in Python and software development by creating a small study-planner project.
+Today I extended my Python study planner so it can schedule subjects across the days I plan to study. I also practised splitting comma-separated text into a list.
 
-### Project goal
-Build a simple program that helps a learner plan study time based on:
-- total weekly study hours
-- number of days available per week
-- average study time per day
+## What the planner does
 
-### What I built
-I created a Python script named `app.py` with functions to:
-- validate weekly study hours
-- validate the number of study days
-- calculate average study hours per day
-- run the planner in a CLI program
+- Accepts weekly study hours and the number of study days.
+- Accepts subject names and assigns them to the selected days.
+- Rotates through the subjects when there are more study days than subjects.
+- Rejects an invalid number of study days or an empty subject list.
 
-I also wrote `test_app.py` to test the core logic using `unittest`.
+## Python concepts practised
 
-### Main learning points
-- Python function design
-- input validation with `if` conditions
-- raising custom `ValueError` exceptions
-- writing and running unit tests
-- basic command-line interaction with `input()` and `print()`
-- organizing a small project with separate files
+- Lists and dictionaries
+- `str.split()` and `str.strip()`
+- List comprehensions
+- Loops and the modulo operator (`%`) for rotating through subjects
+- Raising and testing `ValueError`
+- Unit tests with Python's `unittest` module
 
-### Example logic
-The planner calculates:
+## Project files
 
-```python
-avg_hours_per_day = weekly_hours / study_days
-```
+- `app.py` — study planner and weekly subject scheduling
+- `test_app.py` — tests for weekly schedule creation and empty-subject validation
+- `excerise.py` — practice splitting and trimming comma-separated subject names
 
-and validates that:
-- weekly hours are not less than 1
-- weekly hours do not exceed 168
-- study days are between 1 and 7
+## Run the program and tests
 
-### Files created
-- `app.py` — main program
-- `test_app.py` — unit tests
-- `README.md` — daily summary
+From this directory:
 
-### Commands used
 ```bash
-python3 app.py
-python3 -m unittest -v test_app.py
+./venv/bin/python app.py
+./venv/bin/python -m unittest -v
 ```
 
-### Reflection
-This was a good start because it helped me restart my programming habit without trying to do too much. I focused on core skills instead of jumping into advanced AI or backend projects too early.
+## Reflection
 
-### Next step for tomorrow
-- improve the planner with better error messages
-- learn more about Python functions and testing
-- build a second small project with a bit more complexity
+Today I practised turning user input into useful Python data structures and using a dictionary to represent a weekly schedule. I also continued learning how tests can check expected behavior and invalid input.
 
-### Progress status
-- [x] Python basics started
-- [x] Project created
-- [x] Unit tests added
-- [x] GitHub repo/folder organized
-- [ ] Next project planning
+## Next steps
 
----
-
-This is my Day 1 note and a small restart in my learning journey.
+- Validate the subject count and reject blank subject names.
+- Improve input handling so invalid entries do not unexpectedly stop the program.
+- Add tests for invalid study days and schedules with more days than subjects.
